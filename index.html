@@ -3,12 +3,18 @@
     <!-- Load the latest version of TensorFlow.js -->
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
   </head>
   <body>
     <div id="console"></div>
     <!-- Video feed to use for live image classification -->
     <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
-    <!-- Load index.js after the content of the page -->
+
+    <!-- Buttons to add training data -->
+    <button id="class-a">Add sample for object A</button>
+    <button id="class-b">Add sample for object B</button>
+    <button id="class-c">Add sample for object C</button>
+
     <script src="index.js"></script>
   </body>
 </html>
