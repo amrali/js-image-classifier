@@ -1,4 +1,4 @@
-# Js Image Classifier from Video
+# Realtime Javascript Image Classifier
 
 A simple demonstration of TensorFlow using MobileNet convolutional neural network
 and feeding the intermediate activations through a K-nearest neighbors classifier.
